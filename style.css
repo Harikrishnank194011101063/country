@@ -1,0 +1,57 @@
+.result {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+    
+  .card {
+    cursor: pointer;
+    margin: auto;
+    border-radius: 5px;
+    background-image: url('https://www.gifmaniacos.es/wp-content/uploads/2019/02/universo-gifs-movil-celular-movimiento-gifmaniacos.es-4.gif');background-image: url('https://www.gifmaniacos.es/wp-content/uploads/2019/02/universo-gifs-movil-celular-movimiento-gifmaniacos.es-4.gif');
+    background-size: 100%;
+    color: antiquewhite;
+    font-family: cursive;
+  }
+  
+  .flag{
+    height: 160px;
+    margin: 10px;
+    border: solid black 3px;
+  }
+  
+  h1{
+    text-align: center;
+    margin: auto;
+    color: black;
+    width: 800px;
+  }
+  
+  body{
+   animation-name: maathu;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+
+  }
+  @keyframes maathu{
+    0%   {background-color:rgb(37, 104, 204);}
+    25%  {background-color:rgb(33, 109, 160);}
+    50%  {background-color:rgb(27, 139, 102);}
+    75%  {background-color:rgb(120, 62, 185);}
+    100% {background-color:rgb(141, 27, 126); }
+     
+
+
+
+
+
+
+  }
+  
+  button{
+    background-color: yellow;
+    margin: auto;
+    position: relative;
+    left: 615px;
+  }
